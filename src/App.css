@@ -1,0 +1,15 @@
+.Border{
+    display:flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* border:1px solid black; */
+    align-items: center;
+    justify-content: center;
+    height:50vh;
+    box-shadow:1px 1px 10px 5px grey;
+    background-color: cornsilk;
+    text-decoration: none;
+}
+.headButton{
+    margin: 30px;
+}

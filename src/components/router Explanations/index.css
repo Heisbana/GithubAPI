@@ -1,0 +1,17 @@
+
+.home{
+  margin-right: 30px;
+  font-size: 30px;
+}
+.items{
+  font-size: 20px;
+  margin-right: 40px;
+}
+.features{
+  position: absolute;
+  margin:100px 10px 10px 400px;
+  padding:10px;
+  font-size: 30px;
+  border:1px solid black;
+  max-width: 200px;
+}
