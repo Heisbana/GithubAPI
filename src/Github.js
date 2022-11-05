@@ -49,6 +49,7 @@ export default function Github() {
                  onClick={()=>setNum((prev)=>prev-1)} className= 'button'>{'<<'}</button>
                 {Array.from({length:count?.length}, (value, index)=> index+1).map((each)=>(
                 <button
+                disabled={each === num}
                 onClick={()=> setNum(each)} key = {each} className= 'button'>{each}</button>
               ))}
                 </div>
